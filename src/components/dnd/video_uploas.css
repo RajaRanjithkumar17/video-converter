@@ -1,0 +1,388 @@
+.dnd{
+    width: 80%;
+    height:55vh;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.dnd_container{
+    width: 65%;
+    border: 2px dashed #b53836;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.dnd_container p{
+color: #b53836;
+font-weight: 600;
+
+}
+.close-btn{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.dnd_or{
+    color: #000 !important;
+    margin: 18px 0;
+} 
+.dnd_input{
+    width: 240px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin: 60px auto;
+    margin-bottom: 40px;
+    background-color: #b53836;
+    border-color: #b53836;
+    color: #fff;
+
+}
+.dnd_input label{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    text-align: start;
+    position: absolute;
+    z-index: 9;
+    font-weight: 600;
+}
+
+.dnd_input p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.dnd_input p span{
+    position: absolute;
+    right: 10px;
+    z-index: 8;
+}
+.dnd_input input{
+    display: none;
+}
+
+.selected-files{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    min-height: 30vh;
+}
+.card{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .06);
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    width: 100%;
+}
+.convert-to{
+    width: 33%;
+}
+.convert-to button{
+   height: 40px;
+   width: 144px;
+}
+.convert-to.p{
+   text-align: start;   
+}
+.download{
+    display: flex;
+    justify-content: end;
+}
+.ant-select{
+    width: 125px;
+    height: 40px;
+}
+.drop-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop-down p{
+ padding-right: 18px;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.col-4{
+    width: 150px;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%
+}
+
+.col-auto {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: auto
+}
+
+.col-2 {
+    flex: 0 0 16.66666667%;
+    max-width: 16.66666667%
+}
+
+
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%
+}
+
+.col-8 {
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%
+}
+@media (max-width: 1024px) {
+
+    .close-btn{
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 356px) {
+
+    .dnd{
+        height: auto;
+    }
+    .ad-left{
+        display: none;
+      }
+      .ad-right{
+        display: none;
+      }
+      .vc-tool{
+        width: 100%;
+      
+      }}
+@media (min-width: 576px) {
+
+    .dnd{
+        height: auto;
+    }
+    .ad-left{
+        display: none;
+      }
+      .ad-right{
+        display: none;
+      }
+      .vc-tool{
+        width: 100%;
+      
+      }
+    .col-sm {
+        flex-grow: 1;
+        max-width: 100%
+    }
+
+    .col-sm-auto {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: auto
+    }
+
+    .col-sm-2 {
+        flex: 0 0 16.66666667%;
+        max-width: 16.66666667%
+    }
+
+    .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+
+    .col-sm-4 {
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .col-sm-8 {
+        flex: 0 0 66.66666667%;
+        max-width: 66.66666667%
+    }
+
+    .col-sm-9 {
+        flex: 0 0 75%;
+        max-width: 75%
+    }
+
+    .col-sm-10 {
+        flex: 0 0 83.33333333%;
+        max-width: 83.33333333%
+    }
+
+    .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    .offset-sm-2 {
+        margin-left: 16.66666667%
+    }
+
+    .offset-sm-4 {
+        margin-left: 33.33333333%
+    }
+}
+
+@media (min-width: 768px) {
+    .dnd{
+        height: auto;
+    }
+    .ad-left{
+        display: none;
+      }
+      .ad-right{
+        display: none;
+      }
+      .vc-tool{
+        width: 100%;
+      
+      }
+    .col-md {
+        flex-basis:0;
+        flex-grow: 1;
+        max-width: 100%
+    }
+
+    .col-md-auto {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: auto
+    }
+
+    .col-md-1 {
+        flex: 0 0 8.33333333%;
+        max-width: 8.33333333%
+    }
+
+    .col-md-2 {
+        flex: 0 0 16.66666667%;
+        max-width: 16.66666667%
+    }
+
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%
+    }
+
+    .col-md-5 {
+        flex: 0 0 41.66666667%;
+        max-width: 41.66666667%
+    }
+
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .col-md-7 {
+        flex: 0 0 58.33333333%;
+        max-width: 58.33333333%
+    }
+
+    .col-md-8 {
+        flex: 0 0 66.66666667%;
+        max-width: 66.66666667%
+    }
+
+    .col-md-10 {
+        flex: 0 0 83.33333333%;
+        max-width: 83.33333333%
+    }
+
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media (min-width: 992px) {
+    .dnd{
+        height: auto;
+    }
+    .ad-left{
+        display: none;
+      }
+      .ad-right{
+        display: none;
+      }
+      .vc-tool{
+        width: 100%;
+      
+      }
+ 
+    .col-lg {
+        flex-basis:0;
+        flex-grow: 1;
+        max-width: 100%
+    }
+
+    .col-lg-auto {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: auto
+    }
+
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+
+    .col-lg-4 {
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%
+    }
+
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .col-lg-8 {
+        flex: 0 0 66.66666667%;
+        max-width: 66.66666667%
+    }
+
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+

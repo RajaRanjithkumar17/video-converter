@@ -1,0 +1,31 @@
+.vc_banner{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.vc_banner_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.vc_banner_container h1{
+   text-align: left;
+   color: #202020;
+   font-size: 32px;
+   font-weight: 500;
+   padding-bottom: 20px;
+   font-family: "Rubik", sans-serif;
+
+}
+.vc_banner_container p{
+    text-align: left;
+    color: #202020;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Rubik", sans-serif;
+
+ }
